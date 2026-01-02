@@ -1,7 +1,7 @@
 /* 复用全局样式 */
 @import url("economy.css");
 .background {
-    background-image: url(https://img.cdn1.vip/i/6957cd6af2883_1767361898.webp);
+    background-image: url(https://img.cdn1.vip/i/6957cf5f2caa3_1767362399.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -64,4 +64,5 @@
     scroll-margin-top: 90px;
 
 }
+
 
