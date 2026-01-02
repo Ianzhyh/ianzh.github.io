@@ -126,7 +126,7 @@ body {
 
 
 .background{
-    background-image: url(../img/background_history.jpg);
+    background-image: url(https://img.cdn1.vip/i/6957d1577b21d_1767362903.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -148,7 +148,7 @@ body {
 }
 
 .background_food{
-    background-image: url(../img/background_food.png);
+    background-image: url(https://img.cdn1.vip/i/6957d15c998e8_1767362908.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -306,4 +306,5 @@ p {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     font-size: 0.95rem;
     color: #f0f0f0;
+
 }
