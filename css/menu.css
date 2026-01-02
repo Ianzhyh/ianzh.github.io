@@ -110,7 +110,7 @@ p {
 }
 
 .background {
-    background-image: url(../img/background2.jpg);
+    background-image: url(https://img.cdn1.vip/i/6957cfd31a3a4_1767362515.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -363,4 +363,5 @@ p {
     font-size: 0.95rem;
     color: #f0f0f0;
 }
+
 
