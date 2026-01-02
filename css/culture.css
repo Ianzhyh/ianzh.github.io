@@ -1,0 +1,65 @@
+/* 复用全局样式 */
+@import url("economy.css");
+.background {
+    background-image: url(../img/background_culture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 675px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* 文化板块样式 */
+.culture-item {
+    margin: 4rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.45);
+}
+
+.culture-title {
+    font-size: 1.8rem;
+    color: #ab0000;
+    padding-bottom: 0.4rem;
+    border-left: 6px solid #e74c3c;
+    padding-left: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.culture-img {
+    width: 50%;
+    height: 50%; /* 桌面端高度 */
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: block;
+    margin: 3rem auto;
+}
+
+.culture-content p {
+    text-indent: 2em;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+/* 手机端优化 */
+@media (max-width: 768px) {
+    .culture-img {
+        width: 95%;
+        height: 220px;
+    }
+    .culture-title {
+        font-size: 1.5rem;
+    }
+}
+
+/* 锚点跳转偏移（避开固定导航栏） */
+.culture-item[id] {
+    scroll-margin-top: 90px;
+}

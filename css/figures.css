@@ -1,0 +1,75 @@
+/* 复用全局样式 */
+@import url("scenery.css");
+
+
+
+.figure-section {
+    padding-top: 1rem;
+    width: 75%;
+    margin:3rem auto;
+}
+
+.figure-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    margin-bottom: 1rem;
+}
+
+.figure-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 6px 8px rgba(0,0,0,0.08);
+}
+
+.figure-name {
+    font-size: 1.8rem;
+    color: #ab0000;
+    padding-bottom: 0.4rem;
+    padding-left: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+.figure-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.float-left {
+    float: left;
+    margin: 0 1.5rem 2rem 0;
+}
+
+.float-right {
+    float: right;
+    margin: 0 0 2rem 1.5rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.figure-card p {
+    text-indent: 2em;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #ab0000;
+}
+
+/* 锚点跳转偏移 */
+.figure-section[id] {
+    scroll-margin-top: 90px;
+}
