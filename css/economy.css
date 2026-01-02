@@ -2,7 +2,7 @@
 @import url("scenery.css");
 
 .background {
-    background-image: url(../img/background_economy.png);
+    background-image: url(https://img.cdn1.vip/i/6957d3052cb2a_1767363333.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -54,4 +54,5 @@
 /* 锚点跳转偏移（避开固定导航栏） */
 .economy-item[id] {
     scroll-margin-top: 120px;
+
 }
