@@ -1,7 +1,7 @@
 /* 复用全局样式 */
 @import url("economy.css");
 .background {
-    background-image: url(../img/background_culture.png);
+    background-image: url(https://i.cetsteam.com/imgs/2026/01/02/d04456391407e42c.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -62,4 +62,5 @@
 /* 锚点跳转偏移（避开固定导航栏） */
 .culture-item[id] {
     scroll-margin-top: 90px;
+
 }
